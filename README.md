@@ -1,8 +1,8 @@
 # india-disability-census-analysis
 
 The dataset was procured from:
-1. http://www.censusindia.gov.in/2011census/Disability_Data/DISAB04-0000.xlsx
-2. http://www.censusindia.gov.in/2011census/PCA/PCA_Highlights/pca_highlights_file/karnataka/PCA_Data%20Highlights_india_State.pdf
+http://www.censusindia.gov.in/2011census/Disability_Data/DISAB04-0000.xlsx
+http://www.censusindia.gov.in/2011census/PCA/PCA_Highlights/pca_highlights_file/karnataka/PCA_Data%20Highlights_india_State.pdf
 
 # Pre-requisites
 
