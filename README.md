@@ -1,7 +1,8 @@
 # india-disability-census-analysis
 
 The dataset was procured from:
-http://www.censusindia.gov.in/2011census/Disability_Data/DISAB04-0000.xlsx
+1. http://www.censusindia.gov.in/2011census/Disability_Data/DISAB04-0000.xlsx
+2. http://www.censusindia.gov.in/2011census/PCA/PCA_Highlights/pca_highlights_file/karnataka/PCA_Data%20Highlights_india_State.pdf
 
 # Pre-requisites
 
@@ -9,7 +10,7 @@ http://www.censusindia.gov.in/2011census/Disability_Data/DISAB04-0000.xlsx
 2. Pandas
 3. Numpy
 4. brewer2mpl
-5. Pylab
+5. pylab
 
 # Notes
 
@@ -22,3 +23,5 @@ http://www.censusindia.gov.in/2011census/Disability_Data/DISAB04-0000.xlsx
 Karnataka stands at 8th.
 
  ![Alt text](dtot.png?raw=true "Total disabled population in India")
+
+2. More questions to be added
