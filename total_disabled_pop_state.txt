@@ -1,0 +1,16 @@
+UP	1446393/199812341 - .72
+Maharashtra	112374333 - 1.11
+Bihar 865347/104099452 - 0.83
+West Bengal - 685516/91276115 - .75
+AP	875187/84580777 - 1.03 
+MP 613921/72626809 - .84 
+TN 442032/72147030 - .61 
+Raj 541842/68548437 - 0.79
+Karnataka 503902/61095297 -.82
+Guj 380064/60439692 - 0.62
+Odisha 427020/41974218 - 1.01
+Kerala 179694/33406061 - 0.53
+
+1. Maharashtra 2. Andhra 3. Odisha 4. Madhya pradesh 5. Bihar 6. Karnataka 7. Rajasthan 8. UP 9. West Bengal 10. Gujarath 11. Tamilnadu 
+
+

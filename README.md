@@ -19,9 +19,13 @@ http://www.censusindia.gov.in/2011census/PCA/PCA_Highlights/pca_highlights_file/
 
 # Inference
 
-1. This graph tells us the states with the maximum number of disabled population for now. UP has the largest disabled population, followed by Maharashtra.
+1. This graph tells us the states with the maximum number of disabled population for now. UP has the largest disabled population numbers, followed by Maharashtra.
 Karnataka stands at 8th.
 
  ![Alt text](dtot.png?raw=true "Total disabled population in India")
 
-2. More questions to be added
+2. Taking into account the states in large sizes, this is the sorted order for states having largest disabled population percentages taking into account the total population of the state. 
+
+1. Maharashtra 2. Andhra 3. Odisha 4. Madhya pradesh 5. Bihar 6. Karnataka 7. Rajasthan 8. UP 9. West Bengal 10. Gujarath 11. Tamilnadu
+
+3. More questions to be added

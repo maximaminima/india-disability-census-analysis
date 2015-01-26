@@ -1,0 +1,9 @@
+State Code	India/State/Union Territory	Persons
+00	INDIA	1210569573
+01	Jammu & Kashmir	12541302
+02	Himachal Pradesh	6864602
+03	Punjab	27743338
+04	Chandigarh	1055450
+05	Uttarkhand	10086292
+06	Haryana	25351462
+07	NCT of Delhi	16787941
