@@ -45,7 +45,7 @@ def remove_border(axes=None, top=False, right=False, left=True, bottom=True):
     if right:
         ax.yaxis.tick_right()
 
-def drawGraph(totPopList, stateList):
+def drawGraph(totPopList, stateList, figName, xLimit, gTitle):
 	grad = pd.DataFrame({'totPopList' : totPopList, 'stateList': stateList})
 
 	plt.figure(figsize=(65, 70))
@@ -55,6 +55,7 @@ def drawGraph(totPopList, stateList):
 	pos = np.arange(len(totPopList))
 
 	plt.title('Total disabled population in India by states')
+	plt.title(gTitle)
 	plt.barh(pos, totPopList)
 
 	#add the numbers to the side of each bar
@@ -72,9 +73,9 @@ def drawGraph(totPopList, stateList):
 
 	#set plot limits
 	plt.ylim(pos.max() + 1, pos.min() - 1)
-	plt.xlim(0, 4600)
+	plt.xlim(0, xLimit)
 
-	pylab.savefig("dtot.png")
+	pylab.savefig(figName+".png")
 
 if __name__ == "__main__":
 	## Testing

@@ -50,42 +50,33 @@ header1[8] = "AL"
 header1[9] = "HHI"
 header1[10] = "OW"
 
-dataList = {}
-undataList = {}
+hdataList = {}
+hundataList = {}
 dataList1 = []
 dataList2 = []
 
 for row in reader:
-	if row[3] == "Total disabled population" and row[4] == "Total" and row[5] == "Persons":
+	if row[3] == "In Hearing" and row[4] == "Total" and row[5] == "Persons":
 		if row[2] == "INDIA":
-			dataList[row[2]] = int("9744386")/321
-			undataList[row[2]] = int("9744386")
+			hdataList[row[2]] = int("2062058")
+			hundataList[row[2]] = int("2062058")
 		else:
-			dataList[row[2]] = int(row[6].strip("\t"))/321
-			undataList[row[2]] = int(row[6].strip("\t"))
+			hdataList[row[2]] = int(row[6].strip("\t"))
+			hundataList[row[2]] = int(row[6].strip("\t"))
 
 #print dataList
-print undataList
-sortedList = sorted(dataList.items(), key=operator.itemgetter(1))
-print sortedList
+print hundataList
+hsortedList = sorted(hdataList.items(), key=operator.itemgetter(1))
+print hsortedList
 
-for item in sortedList:
+for item in hsortedList:
 	dataList1.append(item[0])
 	dataList2.append(item[1])
 
 stateList = dataList1
-totPopList = dataList2
+totHPopList = dataList2
 
 del stateList[-1]
-del totPopList[-1]
-drawGraph(totPopList, stateList, "dtot", 4600, 'Total disabled population in India by states in numbers')
+del totHPopList[-1]
+drawGraph(totHPopList, stateList, "hearing_tot", 373000, 'Total hearing impaired population in India by states')
 
-# for rural populace get the magnitude of each disability for male
-# for rural populace get the magnitude of each disability for female
-# a bar graph plot
-
-# for urban populace get the magitude of each disability for male
-# for urban populace get the magitude of each disability for female
-# a bar graph plot
-
-# analyse the co-relation between hearing and speech categorisation
