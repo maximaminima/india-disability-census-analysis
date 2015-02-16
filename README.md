@@ -42,4 +42,9 @@ Karnataka stands at 8th.
 
  ![Alt text](hearing_tot.png?raw=true "Total hearing impaired population in India")
 
-4. More analysis to be added
+4. Hearing impaired non-working population in India for each state as per 2011 census
+
+ ![Alt text](hearing_tot_nonworkers.png?raw=true "Total hearing impaired non-workers in India")
+
+
+5. More analysis to be added
