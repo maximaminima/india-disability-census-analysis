@@ -46,5 +46,22 @@ Karnataka stands at 8th.
 
  ![Alt text](hearing_tot_nonworkers.png?raw=true "Total hearing impaired non-workers in India")
 
+5. Run python hdcensus_max_nonworkers.py "state name"
+	eg: python hdcensus_max_nonworkers.py kerala
 
-5. More analysis to be added
+	$ python hdcensus_max_nonworkers.py karnataka
+	[('Mental Illness', 16611), ('In Speech', 55005), ('Mental Retardation', 74510), ('Multiple disability', 81563), ('In Hearing', 129400), ('Any Other', 135754), ('In Seeing', 160419), ('In Movement', 167041)]
+	
+	$ python hdcensus_max_nonworkers.py tamil nadu
+	[('Mental Illness', 28484), ('In Speech', 47850), ('Multiple disability', 72662), ('In Seeing', 78245), ('Mental Retardation', 88658), ('In Hearing', 120383), ('Any Other', 134275), ('In Movement', 167374)]
+
+	$ python hdcensus_max_nonworkers.py kerala
+	[('In Speech', 28553), ('Mental Illness', 57486), ('Mental Retardation', 61161), ('Any Other', 67029), ('In Hearing', 74794), ('In Seeing', 84046), ('Multiple disability', 86313), ('In Movement', 122767)]	
+
+    python hdcensus_max_nonworkers.py andhra pradesh
+	[('Mental Illness', 33858), ('Mental Retardation', 105626), ('In Speech', 114212), ('Multiple disability', 153779), ('In Hearing', 182100), ('Any Other', 227773), ('In Seeing', 238898), ('In Movement', 335174)]
+
+	Only southern states for now mainly Karnataka, Kerala and Tamilnadu, Andhra. Notice that bulk of the non-workers fall into movement disabled category. Another point to notice is that Andhra and Karnataka have maximum number of hearing impaired non-workers in south. With Andhra's division in recent census to Telengana and Andhra, it is possible that Karnataka might have taken lead in hearing impaired numbers, that can be verified when new census data is available.
+
+
+6. More analysis to be added
